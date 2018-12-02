@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".MainActivity">
+
+    <item android:id="@+id/logo"
+        android:icon="@drawable/log"
+        android:title="best"
+        app:showAsAction="always">
+    </item>
+
+    <item android:id="@+id/call"
+        android:icon="@drawable/icon_call"
+        android:title="best"
+        app:showAsAction="always">
+    </item>
+
+    <item android:id="@+id/best"
+            android:icon="@drawable/best"
+            android:title="best"
+            app:showAsAction="always">
+    </item>
+
+
+    </menu>

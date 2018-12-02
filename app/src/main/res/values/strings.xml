@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">portfolio</string>
+    <string name="sample_string"><![CDATA[some test line 1 <br />some test line 2]]></string>
+</resources>

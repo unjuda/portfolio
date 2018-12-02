@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hkit.kr.portfolio">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="한국IT교육원-대구광역시"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ElectronicActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".GosignupActivity" />
+        <activity android:name=".BigdataActivity" />
+        <activity android:name=".blockActivity" />
+        <activity android:name=".InfomationActivity" />
+        <activity android:name=".MedicalActivity" />
+        <activity android:name=".block1Activity" />
+        <activity android:name=".VirtualizationActivity" />
+        <activity android:name=".selfdrivingActivity"></activity>
+    </application>
+
+</manifest>

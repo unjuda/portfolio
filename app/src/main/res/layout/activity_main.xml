@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whitemain"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+      <Button
+          android:id="@+id/electronic_btn"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:layout_gravity="center"
+          android:background="@drawable/whitemain"
+          android:textSize="17dp"
+          android:text="전기PLC시스템\n12월27일\n개강확정"/>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+      <Button
+          android:id="@+id/bigbata_btn"
+          android:layout_width="0dp"
+          android:layout_height="100dp"
+          android:layout_weight="1"
+          android:background="@drawable/whitemain"
+          android:text=" 빅데이터분석\n(딥러닝/머신러닝)\n12월31일\n개강예정"
+          android:textSize="16dp" />
+
+      <Button
+          android:id="@+id/block_btn"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginRight="25dp"
+          android:layout_marginTop="10dp"
+          android:layout_weight="1"
+          android:background="@drawable/whitemain"
+          android:text="\t\t\t\t\t\t블록체인서비스\n\t\t12월27일\n\t\t개강예정"
+          android:textSize="17dp" />
+   </LinearLayout>
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/infomation_btn"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:layout_marginTop="20dp"
+          android:background="@drawable/whitemain"
+          android:text="정보관리\n전문가양성\n12월10일\n개강예정"
+          android:textSize="17dp" />
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="30dp"
+          android:background="@drawable/photomaincenter" />
+
+      <Button
+          android:id="@+id/medical_btn"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:layout_weight="1"
+          android:background="@drawable/whitemain"
+          android:text="의료기기제작\n12월17일\n개강예정"
+          android:textSize="17dp" />
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/block1_btn"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="50dp"
+          android:layout_weight="1"
+          android:background="@drawable/whitemain"
+          android:text="\n블록체인플랫폼\n18년하반기\n개강예정"
+          android:textSize="17dp" />
+
+      <Button
+          android:id="@+id/virtualization_btn"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:layout_marginRight="30dp"
+          android:layout_weight="1"
+          android:background="@drawable/whitemain"
+          android:text="가상화시스템고도화\n18년하반기\n개강예정"
+          android:textSize="17dp" />
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/selfdriving_btn"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:background="@drawable/whitemain"
+          android:text="자율주행\n11월24일\n개강예정"
+          android:textSize="17dp" />
+
+   </LinearLayout>
+</LinearLayout>
